@@ -9,7 +9,6 @@ and tests for concurrent dispatch, RLS and expired lease quarantine.
 **Validation status:** Offline HTTP-contract/security regressions can run in the
 build environment. The **Docker/PostgreSQL/LangGraph integration suite is
 implemented but has not been executed here** because Docker is unavailable.
-Passing offline tests is not proof of production SaaS or Azure behavior.
 
 ```bash
 python -m pytest -q tests/test_simulator_provider_contract.py \
